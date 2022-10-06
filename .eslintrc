@@ -1,0 +1,15 @@
+{
+  "plugins": ["cypress", "prettier"],
+  "extends": [
+    "react-app",
+    "plugin:prettier/recommended",
+    "plugin:cypress/recommended"
+  ],
+  "env": {
+    "cypress/globals": true
+  },
+  "rules": {
+    "jest/expect-expect": "off",
+    "no-unused-expressions": 0
+  }
+}
